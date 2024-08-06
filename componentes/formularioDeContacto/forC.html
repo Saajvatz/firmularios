@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forC.css">
+    <link rel="stylesheet" href="../../config.css">
+</head>
+<body>
+    <script src="forC.js"></script>
+    <div class="form-container">
+        <h3>Ventas en línea</h3>
+        <p>Habla con uno de nuestros consultores y compra nuestros productos o servicios.</p>
+        <form class="sales-form">
+            <input type="text" id="fullName" name="fullName" placeholder="Nombre completo" required>
+            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+            <input type="tel" id="phone" name="phone" placeholder="Telefono para contacto" required>
+            <select id="service" name="service" required>
+                <option value="" disabled selected>¿Qué quieres contratar?</option>
+                <option value="producto1">Producto 1</option>
+                <option value="producto2">Producto 2</option>
+                <option value="servicio1">Servicio 1</option>
+            </select>
+            <div class="checkbox-container">
+                <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+                <label for="privacyPolicy">
+                    Al informar mis datos, acepto la <a href="#">Política de privacidad</a>.
+                </label>
+            </div>
+            <button type="submit">Únete al chat</button>
+        </form>
+    </div>
+    
+</body>
+</html>
