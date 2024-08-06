@@ -5,10 +5,11 @@ div_formulario.className = "div_formulario";
 
 //Lista de datos(String)
 let formulario = [ 
-    {nombre: "Login", link:"https:"},
-    {nombre: "Login", link:"https:"},
-    {nombre: "Login", link:"https:"},
-    {nombre: "Login", link:"https:"}
+    {nombre: "Login", link:"componentes/login/login.html"},
+    {nombre: "Busqueda", link:"componentes/formularioDeBusqueda/forB.html"},
+    {nombre: "Contacto", link:"componentes/formularioDeContacto/forC.html"},
+    {nombre: "Registro", link:"componentes/formularioDeRegistro/forR.html"},
+    {nombre: "Comentarios y Reseñas", link:"componentes/formulariosDeComercioYResennas/forComer.html"},
 
 ];
 
