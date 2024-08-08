@@ -30,7 +30,7 @@ body {
 .form-group input[type="text"] {
     width: calc(100% - 16px);
 }
-.icono2 button{
+.icono button{
    text-align: center;
     width: 50%;
     height: 50%;
